@@ -9,7 +9,7 @@ def tehtudvalik(var):
         texbox.configure(show="")
         f=True
 def textpealkirijasse():
-    t=texbox.get()
+    t=texbox.get() 
     pealkiri.configure(text=t)
     texbox.delete(0,END)
 aken=Tk()
